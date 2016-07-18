@@ -1,0 +1,13 @@
+{
+	"Name": "Test Language File",
+	"Constructs": [
+		{
+			"Pattern": "hello",
+			"Replacement": "replaced"
+		},
+		{
+			"Pattern": "([0-9]+) to ([0-9]+)",
+			"Replacement": "for (var i = $1; i < $2; i++) {\r\n\thello\r\n}"
+		}
+	]
+}
